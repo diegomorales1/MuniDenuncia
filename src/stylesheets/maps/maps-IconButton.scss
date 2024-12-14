@@ -1,0 +1,107 @@
+.warnings-button-container {
+  position: absolute;
+  bottom: 20px;
+  right: 5px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.warning-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+}
+
+.warning-label {
+  font-size: 18px;
+  color: #fcfcfc;
+  font-weight: bold;
+  margin-top: 4px;
+  text-shadow: 
+    -1px -1px 0 #000,
+     1px -1px 0 #000, 
+    -1px 1px 0 #000,  
+     1px 1px 0 #000;  
+}
+
+.warnings-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.warning-icon {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #76A6E9;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.warning-icon:hover {
+  background-color: #638ac2;
+}
+
+.map-container {
+  position: relative;
+}
+
+
+.lista-container1 {
+  margin-bottom: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.lista-container2 {
+  margin-bottom: 182px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.icon-lista {
+  top: 180px;
+  right: 775px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 1100;
+  transition: transform 0.3s ease;
+}
+
+.icon-lista:hover {
+  transform: scale(1.1);
+}
+
+.lista-text {
+  top: 231px;             
+  right: 773px;
+  font-size: 13px;
+  color: #fcfcfc;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1100;         
+  text-shadow: 
+    -1px -1px 0 #000,
+     1px -1px 0 #000, 
+    -1px 1px 0 #000,  
+     1px 1px 0 #000;  
+}
+

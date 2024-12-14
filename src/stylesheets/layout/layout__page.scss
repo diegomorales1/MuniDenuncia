@@ -1,0 +1,7 @@
+.layout__page {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;  // Se expande para ocupar el espacio disponible
+  position: relative;
+  min-height: 0; // Permite que el flexbox lo controle
+}

@@ -1,0 +1,107 @@
+.advertencia-form {
+    background-color: #A5BBD9;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 1px auto;
+    font-family: Arial, sans-serif;
+    
+    &__select {
+      margin-left: 2px;
+      margin-top: 10px;
+      width: 80%;
+      height: 40px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 16px;
+      background-color: #ffffff;
+      color: #333;
+      padding: 5px;
+      box-sizing: border-box;
+      cursor: pointer;
+      appearance: none;
+
+      &:hover {
+          border-color: #007bff;
+          outline: none;
+      }
+    }
+  
+    &__title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      text-align: center;
+    }
+  
+    &__label {
+      display: block;
+      font-size: 14px;
+      color: white;
+      margin-bottom: 5px;
+      font-weight: bold;
+      text-shadow: 
+      -0.2px -1px 0 #000,
+       1px -1px 0 #000, 
+      -1px 1px 0 #000,  
+       1px 1px 0 #000; 
+    }
+  
+    &__input,
+    &__textarea {
+      width: 100%;
+      height: 10vh;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 14px;
+      box-sizing: border-box;
+      outline: transparent;
+
+      &:hover {
+        border-color: #007bff;
+        outline: none;
+      }
+    }
+  
+    &__textarea {
+      resize: vertical;
+    }
+  
+    &__button {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      background-color: $primary-color;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: $secondary-color;
+      }
+    }
+    &__buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+  
+    &__button--cancel {
+      background-color: #dd2c23;
+      color: white;
+      width: calc(50% - 5px); 
+      
+      &:hover {
+        background-color: #bb2c24;
+      }
+    }
+    
+    &__button {
+      width: calc(45% - 5px); 
+      margin-left: 1px;
+    }
+
+    
+  }

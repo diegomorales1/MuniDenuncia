@@ -1,0 +1,35 @@
+.layout_footer__links {
+    display: flex;
+    margin: 20px;
+    justify-content: auto;
+    margin-bottom: auto;
+    
+
+    img {
+        height: 60px;
+        width: 60px;
+        display: block;
+        left: 5px;
+        top: 15px;
+    }
+
+    .footer {
+        font-size: 15pt;
+        margin: 1;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    .footer2 {
+        width: 300px;
+        position: relative;
+        font-size: 9pt;
+        margin: 1;
+        padding: 40px;
+        text-align: justify;
+        margin-top: 50px;  // Mueve el texto hacia abajo
+        margin-left: -270px; // Mueve el texto hacia la derecha
+        
+    }
+}

@@ -1,0 +1,18 @@
+.register-link {
+    font-size: 0.9em;
+    margin-top: 40px;
+    color: white;
+  
+    .register-text {
+      color: white;
+      text-decoration: underline;
+      cursor: pointer;
+      transition: color 0.2s ease;
+  
+      &:hover {
+        color: rgb(204, 202, 202);
+        text-shadow: 0 0 1px rgba(255, 255, 255, 0.4);
+      }
+    }
+  }
+  

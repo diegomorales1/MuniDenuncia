@@ -1,0 +1,39 @@
+.layout_footer{
+    background: #76a6e97e;
+    height: 300px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .footer{
+        color: #ffffff;;
+        font-size: 17pt;
+    
+    }
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #000000;
+        margin-right: 10px;
+    }
+
+    .redes{
+        height: 30px;
+        width: 40px;
+    }
+
+    .redesig{
+        height: 30px;
+        width: 50px;
+    }
+
+    
+}

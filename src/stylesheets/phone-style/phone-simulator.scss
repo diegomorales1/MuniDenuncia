@@ -1,0 +1,14 @@
+.phone-simulator {
+    width: 390px;
+    height: 844px;
+    border: 2px solid #333;
+    overflow: hidden;
+    margin: 0 auto;
+    //overflow-y: auto; //Para scroll cuando sobre sale de la pag
+    margin: 0 auto; //centra el contenido
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #A5BBD9;
+    z-index: 1200; 
+    position: relative;
+}
