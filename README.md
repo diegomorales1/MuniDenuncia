@@ -10,7 +10,7 @@ Este proyecto se centra en la participación ciudadana y está pensado para inte
 
 ### Figma
 
-Las primeras versiones e impresiones estan hechas en figma en el siguiente [Link](https://www.figma.com/proto/I8rpV5IlFwoBd9K8q0vJb0/MuniDenuncia?node-id=45-132&t=eXhrHoTeCJtk7Bxc-1&starting-point-node-id=74%3A1520)
+Las primeras versiones e impresiones estan hechas en figma en el siguiente [Link](https://www.figma.com/proto/I8rpV5IlFwoBd9K8q0vJb0/MuniDenuncia?node-id=29-41&t=eXhrHoTeCJtk7Bxc-1&starting-point-node-id=74%3A1520)
 
 # Requerimientos e Inicio
 
